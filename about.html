@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/vitasoy.png">
+    <title>About Me | Abigail Gee Delgado</title>
+</head>
+<body>
+    <div class="splash-page">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/aura.gif" alt="logo not found :(" style="height: 75px; margin: 10px; display: flex; align-items: center; border-radius: 100px;">
+                </a>
+            </div>
+            <nav class="topnav" id="myTopnav">
+                <a class="nav-link" href="index.html">Portfolio</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="#contact-me">Contact</a>
+                <a id="resume" href="https://docs.google.com/document/d/12fCEmBQFWb93j_d4bN260btdB-wzFPISlg-OuIb5IkE/edit?usp=sharing" target="_blank">Resume</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="about" id="about-section">
+        <img class="me" src="images/linkedin-pfp.jpeg" alt="LinkedIn Profile Picture">
+        <p style="font-size:40px;">About Me!</p>
+        <span style="font-style:italic;">˗ˏˋ she/her/hers ˎˊ˗</span>
+        <p id="about-text">
+            Nice to meet you! I was born and raised in Berkeley, CA and
+            grew up in the Berkeley public school system. I am currently studying at UC Berkeley, pursuing a Bachelors of Science in Electrical Engineering and Computer Science, set to graduate in 2024.
+            I can spend countless hours browsing shops, the latest fashion trends, and re-watching my comfort shows!
+        </p>
+        <p>Here are some of my favorite songs right now:</p>
+        <div class="playlists">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5VjxXGlyxEKVxHPxDIl6HJ?utm_source=generator" width="30%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4FK0Cap82Uw6sj1y1jCsMi?utm_source=generator" width="30%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3Og4chkrodhXVrbp3yi5Bq?utm_source=generator" width="30%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+    </div>
+
+    <div class="contact" id="contact-me">
+        <div class="contact-text">
+            <span>Contact me at&nbsp</span>
+            <div class="tooltip">
+                <button class="email" onclick="myFunction()">
+                    <span id="email-text">abigaildelgado@berkeley.edu</span>
+                    
+                    <span class="tooltiptext" id="myTooltip">click to copy my email!</span>
+                </button>
+            </div>
+        </div>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/abigail-gee-delgado/" target="_blank">
+                <i class="fa fa-linkedin-square contact-icon"></i>
+            </a>
+            <a href="https://abbygeed.itch.io/" target="_blank">
+                <i class="fa fa-gamepad contact-icon"></i>
+            </a>
+            <a href="https://open.spotify.com/user/mysterya2002?si=f20e873402274120" target="_blank">
+                <i class="fa fa-spotify contact-icon"></i>
+            </a>
+            <a href="https://github.com/abbygee">
+                <i class="fa fa-github-square contact-icon" target="_blank"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
